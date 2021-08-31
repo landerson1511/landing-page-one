@@ -1,0 +1,139 @@
+/* Base Styles*/
+
+html {font-size: 16px;}
+
+body {
+    font-size: 1em;
+    text-align:left;
+    color: #fefae0;
+    background-color: #001219;
+}
+
+ul {list-style-type: none;}
+
+.content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+}
+
+h1 h2 {
+    font-weight: 500;
+}
+
+p {font-size: 1.2em;}
+
+/*------------------------- Base Header & Footer Styles ---------------------------*/
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header {
+    padding: 15px 0;
+}
+
+header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.header-divider {
+    height: 1px;
+    width: 100%;
+    background: #e9c46a;
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    font-size: 1.125em;
+}
+
+.footer-divider {
+    height: 1px;
+    width: 100%;
+    background: #e9c46a;
+}
+
+footer {
+    text-align: center;
+    flex-direction: column;
+    background-color: #001219;
+}
+
+footer .contact {
+    margin-bottom: 30px;
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+
+}
+
+footer .copyright {
+    margin: 20px 0;
+}
+
+
+/*------------------------Hero Area---------------------------*/
+
+.hero-area {
+    background: url(../img/solar-panel.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+
+.hero-area h2 {
+    font-size: 2.1em;
+}
+
+aside {
+    background-color: #005f73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside .form {margin-top: 30px;}
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column wrap;
+    width:100%;
+}
+
+
+input[type=text] {
+    width: 70%;
+    padding: 10px 0;
+    
+}
