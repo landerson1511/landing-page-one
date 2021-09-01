@@ -137,3 +137,48 @@ input[type=text] {
     padding: 10px 0;
     
 }
+
+
+
+
+/*------------- Tablet Styles ---------------------*/
+@media only screen and (min-width:768px) {
+/* General Styles */
+.content-wrapper {max-width: 640px;
+margin: 100px 0;}
+
+h2 {font-size: .25em;
+line-height: 1.33em;}
+
+h3 {
+    font-size: .25em;
+}
+
+
+}
+
+
+@media only screen and (min-width:1200px) {
+
+   header .content-wrapper {
+        max-width: 960px;
+    }
+
+    header .content-wrapper {
+        width: 
+        justify-content: space-around;
+    }
+    header nav {
+        width: 60%;
+    }
+
+    header nav ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .header-divider {display: none;}
+
+
+
+}
